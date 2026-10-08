@@ -1,0 +1,26 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tgz
+coverage/
+dist/
+
+# Pi local and temporary state
+.pi/
+.pi-tmp/
+.pi-agent-tmp/
+
+# Test and general temporary directories
+tests/.tmp/
+tests/tmp/
+.tmp/
+tmp/
+temp/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
